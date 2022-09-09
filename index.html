@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Dante Suarez, UMass Lowell Computer Science, dante_suarez@student.uml.edu
+
+Copyright (c) 2022 by Dante. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Dante Suarez on Sep 9, 2022 at 4:25 PM
+-->
+
+<!--
+    This webpage portrays some random things about me.  There are a few
+    different pages you can visit including an about me, some CS projects
+    I've worked on, and a little bit about fantasy football and my favorite player.
+-->
+
+<!--Here is the header of the file where the normal boilerplate stuff is-->
+<head>
+  <meta charset="utf-8">
+  <!--Here I titled the index page Index Page-->
+  <!--I also linked one of the google API's so that I could use the font you see in the main menu. Credit to Brad Traversy's HTML crash course on showing me how to do that-->
+  <title>Index Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet"> 
+  <!-- Linked the CSS sheet-->
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<!-- body of the document-->
+<body>
+    <!--Here I added a couple images of the twitter and instagram logos-->
+    <!--They can be clicked and the user will be sent to ESPN's instagram and Adam Schefter's twitter-->
+    <div class="header">
+        <div class="socials">
+            <div class="ig">
+                <a href="https://instagram.com/espn/" target="_blank"><img src="ig.png" alt="instagram"></a>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/AdamSchefter/" target="_blank"><img src="twit.png" alt="twitter"></a>
+            </div>
+        </div>
+    </div>
+    <!--Here is the main navigation menu, you can click any of the 3
+    links to get to each page on my site-->
+    <nav>
+        <ul>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="football.html">Football</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

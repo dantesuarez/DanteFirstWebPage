@@ -1,0 +1,62 @@
+/* Boiler plate CSS i got from Brad Traversy's CSS youtube videos*/
+/*Makes the margin and padding 0 for everything default*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Here I adjusted the social media logos using the margin-right and display rules*/
+.socials {
+    padding: 0;
+    margin-right: 3%;
+    float: right;
+    display: inline-flex;
+}
+
+.socials img {
+    width: 6vh;
+}
+
+/*Small adjustments to the twitter and ig logos to make them look better*/
+.twitter img {
+    margin-top: 45px;
+}
+
+.ig img{
+    margin-top: 40px;
+    margin-left: -50%;
+}
+
+/*Used a gradient for the background image with some cool colors*/
+/*Credit to Brad Traversy's Youtube again*/
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+/*Here I changed the font of the main menu to that cool retro looking font*/
+nav a{
+    color: rgb(0, 0, 0);
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: 550;
+}
+
+/*Rule to make the shadow pop out of the word when the mouse is hovering on the word*/
+nav a:hover {
+    transition: all ease-in-out 300ms;
+    color: white;
+    text-shadow: black 10px 10px;
+}
+
+/*Changed position of menu to look better*/
+nav  ul {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+    padding: 0;
+    list-style: none;
+}
